@@ -1,6 +1,10 @@
 'use strict';
 
-// components
-import Dropdown from './components/atoms/Dropdown';
+// atoms
+import Atoms from './components/atoms';
 
-export { Dropdown };
+let OSBWWWComponents = {
+	Atoms
+};
+
+export default OSBWWWComponents;
