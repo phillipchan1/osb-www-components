@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-	entry: './component-demos/js/src/index.js',
+	entry: './components/index.js',
 	module: {
 		rules: [
 			{
@@ -34,7 +34,7 @@ module.exports = {
 	output: {
 		library: 'metal',
 		libraryTarget: 'this',
-		filename: 'component-demos/js/dist/bundle.js'
+		filename: './index.js'
 	},
 	plugins: [new webpack.optimize.ModuleConcatenationPlugin()]
 };
